@@ -147,6 +147,13 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   transition: all 0.3s ease-in-out;
   display: inline-block;
 }
+.btn-hover{
+  background-color: white !important;
+  color: var(--primary-color);
+}
+.btn-hover:hover{
+  box-shadow: 0px 0px 10px 2px white;
+}
 
 .btn:focus,
 .btn:active {
@@ -164,11 +171,13 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .btn-common:hover {
-  color: #fff;
+  color: var(--primary-color)
 }
 
 .btn-effect {
   overflow: hidden;
+  background-color: white;
+  color: var(--primary-color);
 }
 
 .btn-effect:after {
@@ -2234,8 +2243,8 @@ footer .menu li a:hover {
 }
 
 .contact-footer li {
-  padding: 3px 0;
-  margin-bottom: 15px;
+  /* padding: 3px 0; */
+  /* margin-bottom: 4px; */
 }
 
 .contact-footer li strong {
@@ -2271,6 +2280,10 @@ footer .menu li a:hover {
   width: 100%;
 }
 
+.footer-social{
+  margin-top:1rem ;
+    width: 200px;
+}
 .footer-social li {
   display: inline-block;
   margin-right: 12px;
@@ -2412,10 +2425,28 @@ footer .menu li a:hover {
   font-family: 'Oswald', sans-serif !important;
   letter-spacing: 5px;
 }
-.call-action{
+/* .call-action{
   background-image: radial-gradient(#fff, var(--primary-color));
-}
+} */
 /* .cta-trial{
   border-radius:2rem ;
   background-color: white;
 } */
+.cta-trial h3{
+  font-size: 40px !important;
+}
+.section-title img{
+  border-radius:5rem ;
+}
+.brand-heading{
+  color: var(--primary-color);
+  font-style: none !important;
+}
+footer{
+}
+.background{
+  background-image: url('/img/Trees.svg');
+}
+.h3,.p {
+  color:white
+}

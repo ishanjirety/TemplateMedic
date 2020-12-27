@@ -166,3 +166,9 @@
 
 }(jQuery));
 
+
+var btn=document.querySelector(".btn-hover");
+
+btn.addEventListener('click',()=>{
+    btn.style.color="#1abc9c"
+})
