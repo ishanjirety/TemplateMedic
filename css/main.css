@@ -2,6 +2,9 @@
    1. IMPORT GOOGLE FONTS
    ========================================================================== */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,700|Open+Sans");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald&display=swap');
 /* ==========================================================================
    2. GENERAL
    ========================================================================== */
@@ -9,7 +12,7 @@
   --primary-color:#1abc9c;
 }
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
   color: #546E7A;
   font-size: 14px;
   font-weight: 400;
@@ -1170,7 +1173,7 @@ button:focus {
 
 .item-boxes:hover {
   background: transparent;
-  box-shadow: 0px 10px 50px 0px rgba(84, 110, 122, 0.35);
+  box-shadow: 0px 10px 50px 0px #1abc9c !important;
 }
 
 .services-item {
@@ -2397,4 +2400,10 @@ footer .menu li a:hover {
 .counter-item .fact-count h4 {
   font-size: 18px;
   margin-bottom: 0;
+}
+/* Font Changes */
+.font{
+  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Oswald', sans-serif !important;
+  letter-spacing: 5px;
 }
