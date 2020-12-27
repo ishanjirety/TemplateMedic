@@ -1173,7 +1173,7 @@ button:focus {
 
 .item-boxes:hover {
   background: transparent;
-  box-shadow: 0px 10px 50px 0px #1abc9c !important;
+  box-shadow: 0px 0px 20px 0px #1abc9c !important;
 }
 
 .services-item {
@@ -2407,3 +2407,15 @@ footer .menu li a:hover {
   font-family: 'Oswald', sans-serif !important;
   letter-spacing: 5px;
 }
+.cta-trial{
+  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Oswald', sans-serif !important;
+  letter-spacing: 5px;
+}
+.call-action{
+  background-image: radial-gradient(#fff, var(--primary-color));
+}
+/* .cta-trial{
+  border-radius:2rem ;
+  background-color: white;
+} */
