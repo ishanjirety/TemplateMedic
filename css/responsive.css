@@ -102,7 +102,7 @@
     padding: 10px 24px;
   }
   .bg-white .collapse.show {
-    background: #fff;
+    background: #fff !important;
   }
   .navbar-toggleable-sm > .container {
     width: 100%;
