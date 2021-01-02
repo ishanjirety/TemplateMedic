@@ -2445,8 +2445,25 @@ footer .menu li a:hover {
 footer{
 }
 .background{
-  background-image: url('/img/Trees.svg');
+  background-image: url('/img/Moon_mountain.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 .h3,.p {
   color:white
+}
+.section-subtitles{
+  text-align: left !important;
+}
+
+.span4 img {
+  margin-right: 10px;
+}
+.span4 .img-left {
+  float: left;
+}
+.span4 .img-right {
+  float: right;
 }
