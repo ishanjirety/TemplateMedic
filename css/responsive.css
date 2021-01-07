@@ -225,6 +225,9 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .section-subtitles{
+    padding: 1rem !important;
+  }
   .navbar-toggleable-sm > .container {
     width: 100%;
     padding-left: 30px;
