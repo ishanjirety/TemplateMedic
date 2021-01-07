@@ -2686,3 +2686,10 @@ dialog{
   }
 }
 
+.card-video{
+  background:transparent !important ;
+  border: none !important;
+}
+.card-video:hover{
+  box-shadow: transparent !important;
+}
