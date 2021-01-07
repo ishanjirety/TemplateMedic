@@ -2693,3 +2693,11 @@ dialog{
 .card-video:hover{
   box-shadow: transparent !important;
 }
+
+.banner{
+    margin-left:80% ;
+    margin-top:-100px;
+}
+.row-banner{
+  width: 400px;
+}
