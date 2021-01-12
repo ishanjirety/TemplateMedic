@@ -1,4 +1,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
+  #open-modal{
+    margin-left: 40% !important;
+  }
   .section-header .section-title {
     font-size: 22px;
   }
@@ -98,6 +101,9 @@
 }
 
 @media (max-width: 640px) {
+  #open-modal{
+    margin-left: 30% !important;
+  }
   .controls .btn {
     padding: 10px 24px;
   }
@@ -225,8 +231,16 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+
+  #open-modal{
+    margin-left: 30% !important;
+  }
+
   .section-subtitles{
     padding: 1rem !important;
+  }
+  #open-modal{
+    margin-left: 30% !important;
   }
   .navbar-toggleable-sm > .container {
     width: 100%;
