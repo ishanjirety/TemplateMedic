@@ -2599,6 +2599,9 @@ dialog{
 .modal p + p {
   margin-top: 1rem;
 }
+.modal-content{
+  padding-top: 0px !important;
+}
 /* ANIMATIONS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 [data-animation] .modal-dialog {
