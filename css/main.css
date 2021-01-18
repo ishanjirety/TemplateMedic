@@ -148,8 +148,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
    2.2 Buttons
   ==========================================================================*/
   .mainBtn{
-    margin-left: 40% !important;
+    /* margin-left: 40% !important; */
     margin-right:10px ;
+    font-size: 1rem !important;
 }
 .btn {
   font-size: 14px;
