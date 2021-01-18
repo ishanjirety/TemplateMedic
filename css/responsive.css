@@ -1,5 +1,8 @@
 @media (min-width: 768px) and (max-width: 1024px) {
  
+  .mainBtn{
+    margin-left: 37% !important;
+}
   html {
     /* overflow-x: hidden; */
     width: 100% !important;
@@ -104,12 +107,23 @@
     margin-top: 30px;
   }
 }
-
+@media(min-width:638px){
+  .mainBtn{
+    margin-left: 25% !important;
+}
+@media(min-width:993px){
+  .mainBtn{
+    margin-left: 35% !important;
+} 
+}
 @media (max-width: 640px) {
   html {
     /* overflow-x: hidden; */
     width: 100% !important;
   }
+  .mainBtn{
+    margin-left: 25% !important;
+}
   #open-modal{
     margin-left: 30% !important;
   }
@@ -244,6 +258,9 @@
     /* overflow-x: hidden; */
     width: 100% !important;
   }
+  .mainBtn{
+    margin-left: 9% !important;
+}
 
   #open-modal{
     margin-left: 30% !important;
