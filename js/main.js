@@ -203,3 +203,21 @@ document.addEventListener("keyup", e => {
     document.querySelector(".modal.is-visible").classList.remove(isVisible);
   }
 });
+
+window.addEventListener('resize',()=>{
+  if (window.innerWidth<600 && window.innerWidth > 300){
+    document.querySelector('.textImg1').style.fontSize = "30px";
+    document.querySelector('.textImg2').style.fontSize = "20px";
+  }
+  else{
+    document.querySelector('.textImg1').style.fontSize = "50px";
+    document.querySelector('.textImg2').style.fontSize = "30px";
+  }
+  if(window.innerWidth<540 && window.innerWidth >= 360){
+    document.querySelector('.mainBtn').style.marginLeft = "5%";
+  }
+  else if(window.innerWidth>=540){
+    document.querySelector('.mainBtn').style.marginLeft = "15%";
+  }
+
+})
