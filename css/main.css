@@ -186,6 +186,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   z-index: 1;
   padding: 12px 32px;
   border-radius: 30px;
+  font-size: 14px !important;
 }
 
 .btn-common:hover {

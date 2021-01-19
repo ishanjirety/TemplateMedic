@@ -204,20 +204,79 @@ document.addEventListener("keyup", e => {
   }
 });
 
+function check(){
+const WINDOW_INNERWIDTH = window.innerWidth
+if (WINDOW_INNERWIDTH<600 && WINDOW_INNERWIDTH > 300){
+  document.querySelector('.textImg1').style.fontSize = "30px";
+  document.querySelector('.textImg2').style.fontSize = "20px";
+}
+else if(WINDOW_INNERWIDTH>600){
+  document.querySelector('.textImg1').style.fontSize = "50px";
+  document.querySelector('.textImg2').style.fontSize = "30px";
+}
+else{
+  document.querySelector('.textImg1').style.fontSize = "20px";
+  document.querySelector('.textImg2').style.fontSize = "10px";
+}
+if(WINDOW_INNERWIDTH<=300){
+  document.querySelector('.mainBtn').style.marginLeft = "20%";
+}
+// 300 365
+else if (WINDOW_INNERWIDTH >=300 && WINDOW_INNERWIDTH <= 365)
+{
+   if(WINDOW_INNERWIDTH <=330){
+  document.querySelector('.mainBtn1').style.fontSize="small !important"
+  document.querySelector('.mainBtn1').style.width="20px !important"
+  document.querySelector('.mainBtn').style.marginLeft = "0%";
+}
+else{
+  document.querySelector('.mainBtn').style.marginLeft = "0%";
+}
+}
+else if (WINDOW_INNERWIDTH >=300 && WINDOW_INNERWIDTH <= 415){
+  document.querySelector('.mainBtn').style.marginLeft = "10%";
+}
+// 360 637
+else if(WINDOW_INNERWIDTH<=637 && WINDOW_INNERWIDTH>=360){
+  document.querySelector('.mainBtn').style.marginLeft = "20%";
+}
+}
+window.addEventListener('onload')
 window.addEventListener('resize',()=>{
-  if (window.innerWidth<600 && window.innerWidth > 300){
-    document.querySelector('.textImg1').style.fontSize = "30px";
-    document.querySelector('.textImg2').style.fontSize = "20px";
+  // if (window.innerWidth<600 && window.innerWidth > 300){
+  //   document.querySelector('.textImg1').style.fontSize = "30px";
+  //   document.querySelector('.textImg2').style.fontSize = "20px";
+  // }
+  // else if(window.innerWidth>600){
+  //   document.querySelector('.textImg1').style.fontSize = "50px";
+  //   document.querySelector('.textImg2').style.fontSize = "30px";
+  // }
+  // else{
+  //   document.querySelector('.textImg1').style.fontSize = "20px";
+  //   document.querySelector('.textImg2').style.fontSize = "10px";
+  // }
+  
+  if(window.innerWidth<=300){
+    document.querySelector('.mainBtn').style.marginLeft = "20%";
+  }
+  // 300 365
+  else if (window.innerWidth >=300 && window.innerWidth <= 365)
+  {
+     if(window.innerWidth <=330){
+    document.querySelector('.mainBtn1').style.fontSize="small !important"
+    document.querySelector('.mainBtn1').style.width="20px !important"
+    document.querySelector('.mainBtn').style.marginLeft = "0%";
   }
   else{
-    document.querySelector('.textImg1').style.fontSize = "50px";
-    document.querySelector('.textImg2').style.fontSize = "30px";
+    document.querySelector('.mainBtn').style.marginLeft = "0%";
   }
-  if(window.innerWidth<540 && window.innerWidth >= 360){
-    document.querySelector('.mainBtn').style.marginLeft = "5%";
   }
-  else if(window.innerWidth>=540){
-    document.querySelector('.mainBtn').style.marginLeft = "15%";
+  else if (window.innerWidth >=300 && window.innerWidth <= 415){
+    document.querySelector('.mainBtn').style.marginLeft = "10%";
+  }
+  // 360 637
+  else if(window.innerWidth<=637 && window.innerWidth>=360){
+    document.querySelector('.mainBtn').style.marginLeft = "20%";
   }
 
 })

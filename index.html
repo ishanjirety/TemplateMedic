@@ -25,6 +25,7 @@
     <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
     <script type="text/javascript">
       window.onload=function(){
+      check()
       document. getElementById("Audio").play();
       var vid = document.getElementById("Audio");
       vid.volume = 0.2;
@@ -39,8 +40,10 @@
       <nav class="navbar navbar-expand-md fixed-top scrolling-navbar bg-white">
         <div class="container">          
           
-          <span class="navbar-brand">Psychotherapist Rima Sehgal</span>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-brand" style="
+          margin-right: 0px;
+      ">Psychotherapist Rima Sehgal</span>
+          <button class="navbar-toggler" style="margin-left:0px !important ; margin-right: 0px !important;" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="lni-menu"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -75,12 +78,12 @@
         <div id="carousel-slider" class="carousel slide carousel-fade" data-ride="carousel">
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-              <img src="img/slider/pexels-simon-migaj-747964.jpg" alt="">
+              <img src="img/slider/background.jpg" alt="">
               <div class="carousel-caption text-left">
                 <!-- Understand. Heal. Grow.
 We Can Do This Together. -->
-                <h3 class="wow fadeInRight font textImg1" data-wow-delay="0.2s">Understand. Heal. Grow.</h3>  
-                <h2 class="wow fadeInRight font textImg2" data-wow-delay="0.4s"><small><small>We Can Do This Together.</small></small> </h3>
+                <!-- <h3 class="wow fadeInRight font textImg1" data-wow-delay="0.2s">Understand. Heal. Grow.</h3>  
+                <h2 class="wow fadeInRight font textImg2" data-wow-delay="0.4s"><small><small>We Can Do This Together.</small></small> </h3> -->
                 <!-- <h4 class="wow fadeInRight" data-wow-delay="0.6s">Comes with All Essential Sections & Elements</h4> -->
               </div>
             </div>
@@ -98,7 +101,7 @@ We Can Do This Together. -->
             <div class="row">
               <div class="span4">
                 <div class="">
-                <img class="img-left sample-heading" src="/img/photo.jpg" style="width: 30% !important;"/>
+                <img class="img-left sample-heading" src="img/photo.jpg" style="width: 30% !important;"/>
               </div>
                 <p class="section-subtitles">The ups and downs of life sometimes take a toll on us. The routine functioning of day to day activities at home, work or in social circle become a challenge to complete or enjoy. When irrespective of all the efforts to feel better; things continue to bother, it is time for psychotherapy.
                   <br> <br>
@@ -402,10 +405,10 @@ We Can Do This Together. -->
             </div>
           </div>
               
-                <button  type="button" class="open-modal btn btn-common btn-effect mainBtn" data-open="modal7" >Specialties</button>
+                <button  type="button" style="font-size: 14px !important;" class="open-modal btn btn-common btn-effect mainBtn mainBtn1" data-open="modal7" >Specialties</button>
      
       
-                <button  type="button" class="open-modal btn btn-common btn-effect" data-open="modal8" >Approach</button>
+                <button  type="button" class="open-modal btn btn-common btn-effect mainBtn1" data-open="modal8" >Approach</button>
 
       </div>
           <div class="modal" id="modal7" data-animation="slideInOutLeft">
@@ -1288,7 +1291,9 @@ We Can Do This Together. -->
                   <div class="contact-info">
                     <i class="lni-star"></i>
                     <h5>E-mail</h5>
-                    <p><a href="mailto:rima.sehgal@fulbrightmail.org" target="_blank">rima.sehgal@fulbrightmail.org</a></p>
+                    <ul class="contact-footer">
+                    <li><span style="margin-left:0px !important ;"><a target="_blank" href="mailto:rima.sehgal@fulbrightmail.org">rima.sehgal@fulbrightmail.org</a></span></li>
+                  </ul>
                   </div>
                   <!-- Content Info -->
                   <!-- <div class="contact-info">
@@ -1338,10 +1343,7 @@ We Can Do This Together. -->
               </div>
               <ul class="contact-footer">
                 <li>
-                  <strong>Address :</strong> <span>Toronto, Canada</span>
-                </li>
-                <li>
-                  <strong>E-mail :</strong> <span><a target="_blank" href="mailto:rima.sehgal@fulbrightmail.org">rima.sehgal@fulbrightmail.org</a></span>
+                  <span style="margin-left:0px !important ;"><a target="_blank" href="mailto:rima.sehgal@fulbrightmail.org">rima.sehgal@fulbrightmail.org</a></span>
                 </li>
               </ul> 
               <ul class="footer-social">
