@@ -1232,7 +1232,8 @@ We Can Do This Together. -->
           <div class="row">          
             <div class="col-lg-9 col-md-9 col-xs-12">
               <div class="contact-block">
-                <form id="contactForm">
+                  <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+            action="https://script.google.com/macros/s/AKfycbyXmKtEpZGPgRlLs6oIYO1JPV9FiSf8cgqRSrjnkypXskeZNRBX63MS/exec">
                   <div class="row">
                     <div class="col-md-6">
                       <div class="form-group">
@@ -1273,6 +1274,7 @@ We Can Do This Together. -->
                         <div id="msgSubmit" class="h3 hidden"></div> 
                         <div class="clearfix"></div> 
                       </div>
+                    </form>
                     </div>
                   </div>            
                 </form>
@@ -1306,7 +1308,7 @@ We Can Do This Together. -->
                     <li><a class="facebook" target="_blank" href="https://www.facebook.com/healththrucounseling/"><i class="lni-facebook-filled"></i></a></li>
                     <li><a class="linkedin" target="_blank" href="https://www.linkedin.com/in/drrimasehgal/"><i class="lni-linkedin-fill"></i></a></li>
                     <li><a class="google-plus" target="_blank" href="https://www.instagram.com/rimasehgal3/"><i class="lni-instagram"></i></a></li>
-
+  
                     <li><a class="google-plus" target="_blank" href="https://www.youtube.com/channel/UCpltlhfhAVMLz7_8S4VbaXA"><i class="lni-youtube"></i></a></li>
                     <!-- lni-youtube -->
                   </ul>
@@ -1457,6 +1459,8 @@ We Can Do This Together. -->
     <script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>   
     <script src="js/main.js" async></script>
+    <script data-cfasync="false" type="text/javascript"
+    src="https://cdn.rawgit.com/dwyl/learn-to-send-email-via-google-script-html-no-server/master/form-submission-handler.js"></script>
     
   </body>
 </html>
