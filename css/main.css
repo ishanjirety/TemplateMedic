@@ -573,6 +573,15 @@ button:focus {
   -moz-transition: 0.3s;
   transition: 0.3s;
 }
+.covid-flash{
+  position: absolute;
+  background-color: white;
+  color:red;
+  left:-1.2px;
+  width:100%;
+  top:100%;
+  padding-left: 3%;
+}
 .navbar-brand{
   font-size: 1rem !important;
 }
@@ -1679,8 +1688,14 @@ button:focus {
 #carousel-area {
   overflow: hidden;
   background: #2c3e50;
+  position: relative;
 }
+.book-appointment{
+  position: absolute;
+  top:54%;
+  left:-5%;
 
+}
 #carousel-area .carousel-item {
   background-size: 100%;
 }
@@ -2488,6 +2503,15 @@ footer{
 .section-subtitles{
   text-align: left !important;
 }
+.top-section{
+  text-align: center !important;
+  letter-spacing: 0.7px;
+  line-height:30px;
+}
+
+.span4{
+  position: relative;
+}
 
 .span4 img {
   margin-right: 10px;
@@ -2499,11 +2523,14 @@ footer{
   background-position: 0% 0%, 100% 0%, 100% 100%, 0% 100%;
   background-size: 20px 20px, 20px 20px, 20px 20px, 20px 20px;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22 viewBox=%220 0 20 20%22%3E%3Cpolygon points=%2220 0 1 0 0 0 0 1 0 100 1 100 1 1 100 1 100 0%22 fill=%22%23666%22 %2F%3E%3C%2Fsvg%3E"), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22 viewBox=%220 0 20 20%22%3E%3Cpolygon points=%2220 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0%22 fill=%22%23666%22 transform=%22translate(20, 0) rotate(90)%22 %2F%3E%3C%2Fsvg%3E"), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22 viewBox=%220 0 20 20%22%3E%3Cpolygon points=%2220 0 1 0 0 0 0 1 0 20 1 20 1 1 20 1 20 0%22 fill=%22%23666%22 transform=%22translate(20, 20) rotate(180)%22 %2F%3E%3C%2Fsvg%3E"), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22 viewBox=%220 0 20 20%22%3E%3Cpolygon points=%2220 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0%22 fill=%22%23666%22 transform=%22translate(0, 20) rotate(270)%22 %2F%3E%3C%2Fsvg%3E");
+
+}
+.img{
+  width: 300px;
 }
 .img-left{
   margin-right:1rem !important;
   margin-bottom: 1rem; 
-  
 
 }
 .span4 .img-left {
