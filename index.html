@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Grayrids">
-    <title>Inner Voyage
+    <title>Psychotherapist Rima Sehgal
     </title>
 
     <!-- Bootstrap CSS -->
@@ -31,6 +31,7 @@
       vid.volume = 0.2;
       }
       </script>
+      <script src="./js/new.js" async></script>
 
   </head>
   
@@ -42,7 +43,7 @@
           
           <span class="navbar-brand" style="
           margin-right: 0px;
-      ">Inner Voyage</span>
+      ">Psychotherapist Rima Sehgal</span>
           <button class="navbar-toggler" style="margin-left:0px !important ; margin-right: 0px !important;" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="lni-menu"></i>
           </button>
@@ -70,7 +71,7 @@
           </div>
         </div>
         <br>
-        <div class="covid-flash">COVID-19 : Your health is our priority.  To ensure your health and safety during this difficult time only a secure video therapy session or telephone-based therapy session is available. </div>
+        <div class="covid-flash" id="covid-flash"> COVID-19 : Your health is our priority.  To ensure your health and safety during this difficult time only a secure video therapy session or telephone-based therapy session is available. <button class="covid-button" id="covid-button">x</button></div>
       </nav> 
       <audio loop id="Audio">
         <source src="/img/Soothing_music.mp3" type="audio/mp3">
@@ -97,12 +98,12 @@
                     </div>
                   <p class="section-subtitles img-left sample-heading top-section">
                     <strong>
-                    The ups and downs of life sometimes take a toll on us. Life events, relationship conflicts, career stress, busy lifestyle, physical illness, or mental illness can cause significant distress.  But if the routine functioning of day-to-day activities at home, work, or in a social circle becomes a challenge to complete or enjoy. When irrespective of all the efforts to feel better; things continue to bother, it is time for psychotherapy
+                    The ups and downs of life sometimes take a toll on us. Life events, relationship conflicts, career stress, busy lifestyle, physical illness, or mental illness can cause significant distress.  But if the routine functioning of day-to-day activities at home, work, or in a social circle becomes a challenge to complete or enjoy. When irrespective of all the efforts to feel better; things continue to bother, it is time for psychotherapy.
                     <br>
                     <br>            
-                    <a href="#contact" class="btn btn-common btn-effect page-scroll" style="background-color: var(--primary-color); color:white;">Book an Appointment</a>
                     </strong>
                   </p>
+                  <a href="#contact" class="btn btn-common btn-effect page-scroll" style="background-color: var(--primary-color); color:white;">Book an Appointment</a>
                 </div>
              </div>
            </div>
@@ -340,7 +341,7 @@
               <h4>Services for Organizations & Institutions</h4>
               <p>
                 Experiences with significant adults such as parents, and teachers, or peers during developmental stages of school times may  have leave an impact on the individual child lifelong.
-                <br><br><br><br>
+                <br><br><br><br><br>
               </p>
               <button  type="button" class="open-modal btn btn-common btn-effect" data-open="modal2">Read More</button>
                 <br>
@@ -594,10 +595,10 @@
         <div class="container" style="padding-bottom:0px ;">
           <div class="section-header">          
             <h2 class="section-title">Get In Touch</h2>
-            <div style="color:black"><h4>Free 15 Minute 
+            <header style="color:black"><h4 class="consultation">Free 15 Minute 
               Phone Consultation</h4>
-              To discuss your reason(s) for seeking treatment and to see what your options are fill out the form below and Rima Sehgal will schedule a complimentary phone consultation with you! Please mention your preferred days  and time for consultation or for booking a session and we shall revert within three working days
-              </div>
+             <p> To discuss your reason(s) for seeking treatment and to see what your options are fill out the form below and Rima Sehgal will schedule a complimentary phone consultation with you! Please mention your preferred days  and time for consultation or for booking a session and we shall revert within three working days</p>
+            </header>
           </div>
           <div class="row">          
             <div class="col-lg-9 col-md-9 col-xs-12">
@@ -629,7 +630,7 @@
                     <div class="col-md-6">
                       <div class="form-group">
                         <input type="text" placeholder="Subject" id="msg_subject" 
-                        style="background-color: white; border-color: #1ABC9C;" name="subject" class="form-control" required data-error="Please enter subject">
+                        style="background-color: white; border-color: #1ABC9C;" name="subject" class="form-control" data-error="Please enter subject">
                         <div class="help-block with-errors"></div>
                       </div>
                     </div>
@@ -657,7 +658,7 @@
                   <div class="contact-info">
                     <i class="lni-map"></i>
                     <h5>Location</h5>
-                    <p>Toronto, Canada</p>
+                    <p>Delhi, India</p>
                   </div>
                   <!-- Content Info -->
                   <div class="contact-info">
@@ -696,7 +697,7 @@
                 Registered Psychotherapist
                 </h3>
               <div class="textwidget">
-                <div style="width: 300px !important;">get in touch today.</div>
+                <div style="width: 300px !important;">Get in touch today.</div>
               </div>
               <ul class="contact-footer">
                 <li>
@@ -765,7 +766,7 @@
     <script src="js/waypoints.min.js"></script>    
     <script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>   
-    <script src="js/main.js" async></script>
+    <script src="js/main.js"></script>
     <script data-cfasync="false" type="text/javascript"
     src="https://cdn.rawgit.com/dwyl/learn-to-send-email-via-google-script-html-no-server/master/form-submission-handler.js"></script>
     <!-- <script data-cfasync="false" type="text/javascript" src="./js/form-submission-handler.js"></script> -->

@@ -575,13 +575,28 @@ button:focus {
 }
 .covid-flash{
   position: absolute;
+  /* position: relative; */
   background-color: white;
-  color:red;
+  color:#FF6961;
   left:-1.2px;
   width:100%;
   top:100%;
   padding-left: 3%;
+  height : 90px;
+  display:flex;
+  align-items: center;
+  font-size: 18px;
 }
+.covid-button{
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  color: #FF6961;
+  top:4%;
+  right:0.7%;
+  font-size: 18px;
+}
+
 .navbar-brand{
   font-size: 1rem !important;
 }
@@ -2507,6 +2522,10 @@ footer{
   text-align: center !important;
   letter-spacing: 0.7px;
   line-height:30px;
+  font-size: 18px !important;
+}
+.consultation{
+  font-size:18px !important ;
 }
 
 .span4{
