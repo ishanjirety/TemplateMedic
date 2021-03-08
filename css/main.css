@@ -592,10 +592,15 @@ button:focus {
   font-size: 18px;
   display:flex;
   justify-content: center;
+
 }
 .covid-flash p{
   color:#FF6961;
   text-align: center;
+}
+.covid-flash img{
+  max-width:100% !important;
+  height:170px !important;
 }
 .covid-button{
   position: absolute;

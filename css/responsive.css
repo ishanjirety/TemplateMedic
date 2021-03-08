@@ -1,5 +1,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
- 
+  .covid-flash p{
+    font-size:18px
+  }
   .mainBtn{
     margin-left: 47% !important;
     font-size: 1rem !important;
@@ -120,6 +122,9 @@
 } 
 }
 @media(min-width: 360px) and (max-width:637px){
+  .covid-flash p{
+    font-size:8px
+  }
   .mainBtn{
     margin-left: 20% !important;
     font-size: 1rem !important;
@@ -130,6 +135,9 @@
     /* overflow-x: hidden; */
     width: 100% !important;
     
+  }
+  .covid-flash p{
+    font-size:15px
   }
   .mainBtn{
     margin-left: 25% !important;
@@ -264,6 +272,9 @@
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
+  .covid-flash p{
+    font-size:10px
+  }
   html {
     /* overflow-x: hidden; */
     width: 100% !important;
